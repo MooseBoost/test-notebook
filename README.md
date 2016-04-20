@@ -35,9 +35,6 @@ mkdir public
 mkdir public/css
 mkdir public/js
 mkdir public/images
-
-
-touch Rakefile
 ```
 
 
@@ -71,5 +68,14 @@ touch config.ru
 require './app/controllers/application_controller'
 
 run ApplicationController
+```
+
+## 9.Rakefile
+```ruby
+touch Rakefile
+```
+```ruby
+require 'sinatra/activerecord/rake'
+require './config/environment'
 ```
 ### shotgun -> run app
