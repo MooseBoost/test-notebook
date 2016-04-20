@@ -7,6 +7,8 @@ Prep C9 (no hidden folders)
 ###3. bundle init
 ##4. Gems
 ```ruby
+source "http://rubygems.org"
+
 gem 'sinatra'
 gem 'activerecord'
 gem 'sinatra-activerecord'
@@ -14,11 +16,11 @@ gem 'rake'
 gem 'bcrypt'
 
 group :development do
-gem 'pry'
-gem 'pry-nav'
-gem 'sqlite3'
-gem 'tux'
-gem 'shotgun'
+  gem 'pry'
+  gem 'pry-nav'
+  gem 'sqlite3'
+  gem 'tux'
+  gem 'shotgun'
 end
 ```
 ## 5. Create directories + files
